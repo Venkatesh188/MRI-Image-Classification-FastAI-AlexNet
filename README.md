@@ -4,7 +4,8 @@
 This project is aimed at classifying MRI images into different categories using the FastAI library and a pretrained AlexNet model. MRI scans are essential in medical diagnostics, and automating the classification process can significantly aid in quicker and more accurate diagnoses.
 
 ## Project Structure
-- **data/**: Contains the MRI images dataset (not included in the repository; refer to the instructions below on how to obtain the data).
+- **data/**:
+The dataset used in this project is not included in this repository. You can download it from [Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) or other medical imaging repositories.
 - **notebooks/**: Jupyter notebooks for data preprocessing, model training, and evaluation.
   - `MRI_Image_Classification_AlexNet.ipynb`: Main notebook that includes all steps from data loading, preprocessing, model training, and evaluation.
 - **models/**: Directory where the trained model weights will be saved (optional).
